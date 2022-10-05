@@ -11,6 +11,8 @@ stories:
 - story: resturant_time
   steps:
   - intent: greet
+  - action: utter_greet
+  - intent: resturant_time
   - action: utter_resturant_time
 
 - story: sad path 1
