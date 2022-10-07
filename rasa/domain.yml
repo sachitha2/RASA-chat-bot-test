@@ -8,7 +8,7 @@ intents:
   - mood_great
   - mood_unhappy
   - bot_challenge
-  - utter_resturant_time
+  - resturant_time
 
 responses:
   utter_greet:
