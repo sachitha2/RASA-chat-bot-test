@@ -13,6 +13,38 @@ stories:
     intent: mood_great
   - action: utter_happy
 
+- story: neck pain 1
+  steps:
+  - user: |
+      hi
+    intent: greet
+  - action: utter_greet
+  - user: |
+      not good
+    intent: mood_unhappy
+  - action: utter_have_a_pain
+  - user: |
+      neck pain
+    intent: neck_pain
+  - action: utter_neck_pain
+  - action: utter_get_well_soon
+
+- story: back pain 1
+  steps:
+  - user: |
+      hi
+    intent: greet
+  - action: utter_greet
+  - user: |
+      not good
+    intent: mood_unhappy
+  - action: utter_have_a_pain
+  - user: |
+      back pain
+    intent: spinal_pain
+  - action: utter_spinal_pain
+  - action: utter_get_well_soon
+
 - story: happy path 2
   steps:
   - user: |
