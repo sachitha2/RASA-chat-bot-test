@@ -44,6 +44,66 @@ stories:
     intent: spinal_pain
   - action: utter_spinal_pain
   - action: utter_get_well_soon
+- story: stress 1
+  steps:
+  - user: |
+      hi
+    intent: greet
+  - action: utter_greet
+  - user: |
+      not good
+    intent: mood_unhappy
+  - action: utter_have_a_pain
+  - user: |
+      i am stressed
+    intent: stress
+  - action: utter_stress
+  - action: utter_get_well_soon
+- story: asathma 1
+  steps:
+  - user: |
+      hi
+    intent: greet
+  - action: utter_greet
+  - user: |
+      not good
+    intent: mood_unhappy
+  - action: utter_have_a_pain
+  - user: |
+      i have asathma
+    intent: asathma
+  - action: utter_asathma
+  - action: utter_get_well_soon
+- story: heart attact 1
+  steps:
+  - user: |
+      hi
+    intent: greet
+  - action: utter_greet
+  - user: |
+      not good
+    intent: mood_unhappy
+  - action: utter_have_a_pain
+  - user: |
+      i have a hear attact
+    intent: heart_attact
+  - action: utter_heart_attact
+  - action: utter_get_well_soon
+- story: sleep_apnea 1
+  steps:
+  - user: |
+      hi
+    intent: greet
+  - action: utter_greet
+  - user: |
+      not good
+    intent: mood_unhappy
+  - action: utter_have_a_pain
+  - user: |
+      i have sleep apnea
+    intent: sleep_apnea
+  - action: utter_sleep_apnea
+  - action: utter_get_well_soon
 
 - story: happy path 2
   steps:
