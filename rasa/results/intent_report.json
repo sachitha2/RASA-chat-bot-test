@@ -1,30 +1,9 @@
 {
-  "bot_challenge": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 4,
-    "confused_with": {}
-  },
-  "heart_attact": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 8,
-    "confused_with": {}
-  },
   "mood_great": {
     "precision": 1.0,
     "recall": 1.0,
     "f1-score": 1.0,
     "support": 14,
-    "confused_with": {}
-  },
-  "affirm": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 6,
     "confused_with": {}
   },
   "neck_pain": {
@@ -34,18 +13,11 @@
     "support": 5,
     "confused_with": {}
   },
-  "spinal_pain": {
+  "asathma": {
     "precision": 1.0,
     "recall": 1.0,
     "f1-score": 1.0,
-    "support": 10,
-    "confused_with": {}
-  },
-  "sleep_apnea": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 4,
+    "support": 5,
     "confused_with": {}
   },
   "stress": {
@@ -55,25 +27,18 @@
     "support": 8,
     "confused_with": {}
   },
-  "mood_unhappy": {
+  "spinal_pain": {
     "precision": 1.0,
     "recall": 1.0,
     "f1-score": 1.0,
-    "support": 14,
+    "support": 10,
     "confused_with": {}
   },
-  "asathma": {
+  "heart_attact": {
     "precision": 1.0,
     "recall": 1.0,
     "f1-score": 1.0,
-    "support": 5,
-    "confused_with": {}
-  },
-  "deny": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 7,
+    "support": 8,
     "confused_with": {}
   },
   "goodbye": {
@@ -85,6 +50,34 @@
       "greet": 1
     }
   },
+  "affirm": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 6,
+    "confused_with": {}
+  },
+  "deny": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 7,
+    "confused_with": {}
+  },
+  "mood_unhappy": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 14,
+    "confused_with": {}
+  },
+  "sleep_apnea": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 4,
+    "confused_with": {}
+  },
   "greet": {
     "precision": 0.9285714285714286,
     "recall": 1.0,
@@ -92,10 +85,17 @@
     "support": 13,
     "confused_with": {}
   },
+  "bot_challenge": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 4,
+    "confused_with": {}
+  },
   "accuracy": 0.9908256880733946,
   "macro avg": {
     "precision": 0.9945054945054945,
-    "recall": 0.9930069930069929,
+    "recall": 0.9930069930069931,
     "f1-score": 0.9934879934879935,
     "support": 109
   },
