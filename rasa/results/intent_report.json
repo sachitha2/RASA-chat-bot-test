@@ -1,11 +1,4 @@
 {
-  "neck_pain": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 5,
-    "confused_with": {}
-  },
   "deny": {
     "precision": 1.0,
     "recall": 1.0,
@@ -13,11 +6,67 @@
     "support": 7,
     "confused_with": {}
   },
+  "mood_unhappy": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 14,
+    "confused_with": {}
+  },
+  "heart_attact": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 8,
+    "confused_with": {}
+  },
   "mood_great": {
     "precision": 1.0,
     "recall": 1.0,
     "f1-score": 1.0,
     "support": 14,
+    "confused_with": {}
+  },
+  "spinal_pain": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 10,
+    "confused_with": {}
+  },
+  "neck_pain": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 5,
+    "confused_with": {}
+  },
+  "greet": {
+    "precision": 0.9285714285714286,
+    "recall": 1.0,
+    "f1-score": 0.962962962962963,
+    "support": 13,
+    "confused_with": {}
+  },
+  "sleep_apnea": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 4,
+    "confused_with": {}
+  },
+  "stress": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 8,
+    "confused_with": {}
+  },
+  "asathma": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 5,
     "confused_with": {}
   },
   "goodbye": {
@@ -29,13 +78,6 @@
       "greet": 1
     }
   },
-  "affirm": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 6,
-    "confused_with": {}
-  },
   "bot_challenge": {
     "precision": 1.0,
     "recall": 1.0,
@@ -43,38 +85,24 @@
     "support": 4,
     "confused_with": {}
   },
-  "spinal_pain": {
+  "affirm": {
     "precision": 1.0,
     "recall": 1.0,
     "f1-score": 1.0,
-    "support": 10,
+    "support": 6,
     "confused_with": {}
   },
-  "mood_unhappy": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 14,
-    "confused_with": {}
-  },
-  "greet": {
-    "precision": 0.9285714285714286,
-    "recall": 1.0,
-    "f1-score": 0.962962962962963,
-    "support": 13,
-    "confused_with": {}
-  },
-  "accuracy": 0.9880952380952381,
+  "accuracy": 0.9908256880733946,
   "macro avg": {
-    "precision": 0.9920634920634921,
-    "recall": 0.9898989898989901,
-    "f1-score": 0.9905937683715462,
-    "support": 84
+    "precision": 0.9945054945054945,
+    "recall": 0.9930069930069929,
+    "f1-score": 0.9934879934879934,
+    "support": 109
   },
   "weighted avg": {
-    "precision": 0.9889455782312925,
-    "recall": 0.9880952380952381,
-    "f1-score": 0.9880322499370119,
-    "support": 84
+    "precision": 0.991480996068152,
+    "recall": 0.9908256880733946,
+    "f1-score": 0.9907771467404496,
+    "support": 109
   }
 }
