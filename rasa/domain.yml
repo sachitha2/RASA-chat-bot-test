@@ -10,6 +10,9 @@ intents:
   - bot_challenge
   - neck_pain
   - spinal_pain
+  - stress
+  - asathma
+  - heart_attact
 
 responses:
   utter_greet:
