@@ -8,15 +8,11 @@ intents:
   - mood_great
   - mood_unhappy
   - bot_challenge
-  - resturant_time
   - neck_pain
 
 responses:
   utter_greet:
   - text: "Hey! How are you?"
-
-  utter_resturant_time:
-  - text: "We are open at 11AM to 11PM"
 
   utter_neck_pain:
   - text: "Let me sugest you a better sleeping position."

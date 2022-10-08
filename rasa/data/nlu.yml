@@ -90,13 +90,6 @@ nlu:
     - are you a human?
     - am I talking to a bot?
     - am I talking to a human?
-- intent: resturant_time
-  examples: |
-    - open time ?
-    - open time ?
-    - what time is it open ?
-    - Are you open ?
-    - are u open
 - intent: neck_pain
   examples: |
     - I have a neck pain ?

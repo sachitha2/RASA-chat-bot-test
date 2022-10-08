@@ -8,12 +8,6 @@ stories:
   - action: utter_greet
   - intent: mood_great
   - action: utter_happy
-- story: resturant_time
-  steps:
-  - intent: greet
-  - action: utter_greet
-  - intent: resturant_time
-  - action: utter_resturant_time
 - story: neck_pain
   steps:
   - intent: greet
