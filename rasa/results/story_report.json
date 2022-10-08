@@ -1,17 +1,53 @@
 {
+  "bot_challenge": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 1
+  },
+  "utter_have_a_pain": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 2
+  },
+  "utter_neck_pain": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 1
+  },
+  "utter_get_well_soon": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 2
+  },
+  "action_listen": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 13
+  },
+  "utter_goodbye": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 2
+  },
   "mood_great": {
     "precision": 1.0,
     "recall": 1.0,
     "f1-score": 1.0,
     "support": 2
   },
-  "utter_greet": {
+  "neck_pain": {
     "precision": 1.0,
     "recall": 1.0,
     "f1-score": 1.0,
-    "support": 2
+    "support": 1
   },
-  "greet": {
+  "utter_happy": {
     "precision": 1.0,
     "recall": 1.0,
     "f1-score": 1.0,
@@ -23,13 +59,25 @@
     "f1-score": 1.0,
     "support": 1
   },
-  "action_listen": {
+  "utter_greet": {
     "precision": 1.0,
     "recall": 1.0,
     "f1-score": 1.0,
-    "support": 7
+    "support": 4
   },
-  "utter_goodbye": {
+  "utter_spinal_pain": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 1
+  },
+  "spinal_pain": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 1
+  },
+  "mood_unhappy": {
     "precision": 1.0,
     "recall": 1.0,
     "f1-score": 1.0,
@@ -41,35 +89,29 @@
     "f1-score": 1.0,
     "support": 2
   },
-  "utter_happy": {
+  "greet": {
     "precision": 1.0,
     "recall": 1.0,
     "f1-score": 1.0,
-    "support": 2
-  },
-  "bot_challenge": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 1
+    "support": 4
   },
   "accuracy": 1.0,
   "macro avg": {
     "precision": 1.0,
     "recall": 1.0,
     "f1-score": 1.0,
-    "support": 21
+    "support": 41
   },
   "weighted avg": {
     "precision": 1.0,
     "recall": 1.0,
     "f1-score": 1.0,
-    "support": 21
+    "support": 41
   },
   "conversation_accuracy": {
     "accuracy": 1.0,
-    "correct": 4,
+    "correct": 6,
     "with_warnings": 0,
-    "total": 4
+    "total": 6
   }
 }
