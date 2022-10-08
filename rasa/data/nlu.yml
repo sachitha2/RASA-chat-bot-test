@@ -90,10 +90,10 @@ nlu:
     - are you a human?
     - am I talking to a bot?
     - am I talking to a human?
-- intent: resturant_time
+- intent: neck_pain
   examples: |
-    - open time ?
-    - open time ?
-    - what time is it open ?
-    - Are you open ?
-    - are u open
+    - I have a neck pain ?
+    - my neck is hurting ?
+    - having a neck pain ?
+    - oh my neck is hurting ?
+    - my neck hurts
