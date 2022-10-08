@@ -10,6 +10,10 @@ intents:
   - bot_challenge
   - neck_pain
   - spinal_pain
+  - stress
+  - asathma
+  - heart_attact
+  - sleep_apnea
 
 responses:
   utter_greet:
@@ -25,12 +29,26 @@ responses:
   utter_spinal_pain:
   - text: "The best position to avoid back pain is lying flat on your back. Even so, many people find it the hardest way to enjoy deep sleep. For optimal spine alignment, place one pillow underneath your head or neck and another underneath your knees."
     image: "https://healthmatters.nyp.org/wp-content/uploads/2021/06/back-pain-and-sleep-slide-back.jpg"
+  utter_stress:
+  - text: "Specifically, sleeping on the side or back is considered more beneficial than sleeping on the stomach. In either of these sleep positions, it's easier to keep your spine supported and balanced, which relieves pressure on the spinal tissues and enables your muscles to relax and recover."
+    image: "https://healthmatters.nyp.org/wp-content/uploads/2021/06/back-pain-and-sleep-slide-back.jpg"
+  utter_sleep_apnea:
+  - text: "Side sleeping with your back mostly straight is the best position for sleep apnea sufferers according to the Sleep Better Council. Research shows that sleeping on the left side reduces sleep apnea even more than sleeping on the right."
+    image: "https://www.sleepcycle.com/wp-content/uploads/2022/02/the-sleep-positions-for-sleep-apnea.jpg"
+  utter_asathma:
+  - text: "1. Lie on your back with your shoulders and neck elevated. 2. Lie on your left side with a pillow between your legs. 3. Lie on your back with your head elevated and your knees bent with a pillow under knees."
+    image: "https://post.healthline.com/wp-content/uploads/2021/03/sleeping-in-bed-many-pillows-732x549-thumbnail.jpg"
+  utter_heart_attact:
+  - text: "Sleeping on your right side may be the best option for people with heart failure. Although some people think sleeping on your right side could restrict blood flow back to the heart, there's not enough evidence to prove that it's harmful."
+    image: "https://post.healthline.com/wp-content/uploads/2021/01/Older_Female_Side_Sleeping_1200x628-facebook-1200x628.jpg"
   utter_cheer_up:
   - text: "Here is something to cheer you up:"
     image: "https://i.imgur.com/nGF1K8f.jpg"
 
   utter_did_that_help:
   - text: "Did that help you?"
+  utter_get_well_soon:
+  - text: "Getwel soon!"
 
   utter_happy:
   - text: "Great, carry on!"

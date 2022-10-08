@@ -16,7 +16,44 @@ stories:
   - action: utter_have_a_pain
   - intent: neck_pain
   - action: utter_neck_pain
+  - action: utter_get_well_soon
 
+- story: heart attact
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_have_a_pain
+  - intent: heart_attact
+  - action: utter_heart_attact
+  - action: utter_get_well_soon
+- story: asathma
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_have_a_pain
+  - intent: asathma
+  - action: utter_asathma
+  - action: utter_get_well_soon
+- story: sleep_apnea
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_have_a_pain
+  - intent: sleep_apnea
+  - action: utter_sleep_apnea
+  - action: utter_get_well_soon
+- story: stress
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_have_a_pain
+  - intent: stress
+  - action: utter_stress
+  - action: utter_get_well_soon
 - story: spinal pain
   steps:
   - intent: greet
@@ -25,22 +62,4 @@ stories:
   - action: utter_have_a_pain
   - intent: spinal_pain
   - action: utter_spinal_pain
-# - story: sad path 1
-#   steps:
-#   - intent: greet
-#   - action: utter_greet
-#   - intent: mood_unhappy
-#   - action: utter_cheer_up
-#   - action: utter_did_that_help
-#   - intent: affirm
-#   - action: utter_happy
-
-# - story: sad path 2
-#   steps:
-#   - intent: greet
-#   - action: utter_greet
-#   - intent: mood_unhappy
-#   - action: utter_cheer_up
-#   - action: utter_did_that_help
-#   - intent: deny
-#   - action: utter_goodbye
+  - action: utter_get_well_soon

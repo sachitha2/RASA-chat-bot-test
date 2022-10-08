@@ -86,26 +86,59 @@ nlu:
 
 - intent: bot_challenge
   examples: |
-    - are you a bot?
-    - are you a human?
-    - am I talking to a bot?
-    - am I talking to a human?
+    - are you a bot
+    - are you a human
+    - am I talking to a bot
+    - am I talking to a human
 - intent: neck_pain
   examples: |
-    - I have a neck pain ?
-    - my neck is hurting ?
-    - having a neck pain ?
-    - oh my neck is hurting ?
+    - I have a neck pain
+    - my neck is hurting
+    - having a neck pain
+    - oh my neck is hurting
     - my neck hurts
 - intent: spinal_pain
   examples: |
-    - I have a back pain ?
-    - I have a spinal pain ?
-    - my back is hurting ?
-    - having a spinal pain ?
-    - having a back pain ?
-    - oh my back is hurting ?
-    - oh my spine is hurting ?
+    - I have a back pain
+    - I have a spinal pain
+    - my back is hurting
+    - having a spinal pain 
+    - having a back pain
+    - oh my back is hurting
+    - oh my spine is hurting
     - my back hurts
     - my back it hurts
     - my spine it hurts
+- intent: heart_attact
+  examples: |
+    - i have a heart attack
+    - I am having a heart attact
+    - hart attact
+    - I am a heart patient
+    - heart patient
+    - heart problem
+    - chest pain
+    - chest ache
+- intent: asathma
+  examples: |
+    - I have asathma
+    - I am  an asathma patient
+    - I am having asathma
+    - Have asathma
+    - asathma
+- intent: sleep_apnea
+  examples: |
+    - I have sleep apnea
+    - I am having sleep apnea
+    - Have sleep apnea
+    - sleep apnea
+- intent: stress
+  examples: |
+    - I am stressed
+    - Stressed today
+    - stressed
+    - Depressed today
+    - Depressed
+    - tired today
+    - bit tired
+    - tired

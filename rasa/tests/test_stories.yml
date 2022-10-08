@@ -13,6 +13,98 @@ stories:
     intent: mood_great
   - action: utter_happy
 
+- story: neck pain 1
+  steps:
+  - user: |
+      hi
+    intent: greet
+  - action: utter_greet
+  - user: |
+      not good
+    intent: mood_unhappy
+  - action: utter_have_a_pain
+  - user: |
+      neck pain
+    intent: neck_pain
+  - action: utter_neck_pain
+  - action: utter_get_well_soon
+
+- story: back pain 1
+  steps:
+  - user: |
+      hi
+    intent: greet
+  - action: utter_greet
+  - user: |
+      not good
+    intent: mood_unhappy
+  - action: utter_have_a_pain
+  - user: |
+      back pain
+    intent: spinal_pain
+  - action: utter_spinal_pain
+  - action: utter_get_well_soon
+- story: stress 1
+  steps:
+  - user: |
+      hi
+    intent: greet
+  - action: utter_greet
+  - user: |
+      not good
+    intent: mood_unhappy
+  - action: utter_have_a_pain
+  - user: |
+      i am stressed
+    intent: stress
+  - action: utter_stress
+  - action: utter_get_well_soon
+- story: asathma 1
+  steps:
+  - user: |
+      hi
+    intent: greet
+  - action: utter_greet
+  - user: |
+      not good
+    intent: mood_unhappy
+  - action: utter_have_a_pain
+  - user: |
+      i have asathma
+    intent: asathma
+  - action: utter_asathma
+  - action: utter_get_well_soon
+- story: heart attact 1
+  steps:
+  - user: |
+      hi
+    intent: greet
+  - action: utter_greet
+  - user: |
+      not good
+    intent: mood_unhappy
+  - action: utter_have_a_pain
+  - user: |
+      i have a hear attact
+    intent: heart_attact
+  - action: utter_heart_attact
+  - action: utter_get_well_soon
+- story: sleep_apnea 1
+  steps:
+  - user: |
+      hi
+    intent: greet
+  - action: utter_greet
+  - user: |
+      not good
+    intent: mood_unhappy
+  - action: utter_have_a_pain
+  - user: |
+      i have sleep apnea
+    intent: sleep_apnea
+  - action: utter_sleep_apnea
+  - action: utter_get_well_soon
+
 - story: happy path 2
   steps:
   - user: |
@@ -28,53 +120,7 @@ stories:
     intent: goodbye
   - action: utter_goodbye
 
-- story: sad path 1
-  steps:
-  - user: |
-      hello
-    intent: greet
-  - action: utter_greet
-  - user: |
-      not good
-    intent: mood_unhappy
-  - action: utter_cheer_up
-  - action: utter_did_that_help
-  - user: |
-      yes
-    intent: affirm
-  - action: utter_happy
 
-- story: sad path 2
-  steps:
-  - user: |
-      hello
-    intent: greet
-  - action: utter_greet
-  - user: |
-      not good
-    intent: mood_unhappy
-  - action: utter_cheer_up
-  - action: utter_did_that_help
-  - user: |
-      not really
-    intent: deny
-  - action: utter_goodbye
-
-- story: sad path 3
-  steps:
-  - user: |
-      hi
-    intent: greet
-  - action: utter_greet
-  - user: |
-      very terrible
-    intent: mood_unhappy
-  - action: utter_cheer_up
-  - action: utter_did_that_help
-  - user: |
-      no
-    intent: deny
-  - action: utter_goodbye
 
 - story: say goodbye
   steps:
