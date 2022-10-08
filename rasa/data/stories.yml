@@ -17,6 +17,38 @@ stories:
   - intent: neck_pain
   - action: utter_neck_pain
 
+- story: heart attact
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_have_a_pain
+  - intent: heart_attact
+  - action: utter_heart_attact
+- story: asathma
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_have_a_pain
+  - intent: asathma
+  - action: utter_asathma
+- story: sleep_apnea
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_have_a_pain
+  - intent: sleep_apnea
+  - action: utter_sleep_apnea
+- story: stress
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_have_a_pain
+  - intent: stress
+  - action: utter_stress
 - story: spinal pain
   steps:
   - intent: greet
