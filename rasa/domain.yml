@@ -13,6 +13,7 @@ intents:
   - stress
   - asathma
   - heart_attact
+  - sleep_apnea
 
 responses:
   utter_greet:
