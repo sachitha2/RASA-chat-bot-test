@@ -97,3 +97,15 @@ nlu:
     - having a neck pain ?
     - oh my neck is hurting ?
     - my neck hurts
+- intent: spinal_pain
+  examples: |
+    - I have a back pain ?
+    - I have a spinal pain ?
+    - my back is hurting ?
+    - having a spinal pain ?
+    - having a back pain ?
+    - oh my back is hurting ?
+    - oh my spine is hurting ?
+    - my back hurts
+    - my back it hurts
+    - my spine it hurts
