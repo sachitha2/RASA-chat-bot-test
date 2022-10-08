@@ -97,3 +97,10 @@ nlu:
     - what time is it open ?
     - Are you open ?
     - are u open
+- intent: neck_pain
+  examples: |
+    - I have a neck pain ?
+    - my neck is hurting ?
+    - having a neck pain ?
+    - oh my neck is hurting ?
+    - my neck hurts

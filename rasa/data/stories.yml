@@ -14,6 +14,14 @@ stories:
   - action: utter_greet
   - intent: resturant_time
   - action: utter_resturant_time
+- story: neck_pain
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_have_a_pain
+  - intent: neck_pain
+  - action: utter_neck_pain
 
 - story: sad path 1
   steps:

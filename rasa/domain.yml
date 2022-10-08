@@ -9,6 +9,7 @@ intents:
   - mood_unhappy
   - bot_challenge
   - resturant_time
+  - neck_pain
 
 responses:
   utter_greet:
@@ -16,6 +17,10 @@ responses:
 
   utter_resturant_time:
   - text: "We are open at 11AM to 11PM"
+
+  utter_neck_pain:
+  - text: "Let me sugest you a better sleeping position."
+    image: "https://www.ramoscenter.com/wp-content/uploads/2021/09/sleep-methods-desktop.jpg"
 
   utter_cheer_up:
   - text: "Here is something to cheer you up:"
