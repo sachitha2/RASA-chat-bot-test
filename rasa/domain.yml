@@ -43,6 +43,8 @@ responses:
 
   utter_did_that_help:
   - text: "Did that help you?"
+  utter_get_well_soon:
+  - text: "Getwel soon!"
 
   utter_happy:
   - text: "Great, carry on!"
