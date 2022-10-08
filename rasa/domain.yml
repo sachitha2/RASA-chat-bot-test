@@ -9,15 +9,22 @@ intents:
   - mood_unhappy
   - bot_challenge
   - neck_pain
+  - spinal_pain
 
 responses:
   utter_greet:
   - text: "Hey! How are you?"
 
-  utter_neck_pain:
-  - text: "Let me sugest you a better sleeping position."
-    image: "https://www.ramoscenter.com/wp-content/uploads/2021/09/sleep-methods-desktop.jpg"
+  utter_have_a_pain:
+  - text: "Do you have any pain"
 
+  utter_neck_pain:
+  - text: "Two sleeping positions are easiest on the neck: on your side or on your back. If you sleep on your back, choose a rounded pillow to support the natural curve of your neck, with a flatter pillow cushioning your head."
+    image: "https://marvel-b1-cdn.bc0a.com/f00000000041628/ix-cdn.b2e5.com/images/41628/41628_0a4e16da5830416f9b6b90b050b4c688_1653408647.jpeg"
+
+  utter_spinal_pain:
+  - text: "The best position to avoid back pain is lying flat on your back. Even so, many people find it the hardest way to enjoy deep sleep. For optimal spine alignment, place one pillow underneath your head or neck and another underneath your knees."
+    image: "https://healthmatters.nyp.org/wp-content/uploads/2021/06/back-pain-and-sleep-slide-back.jpg"
   utter_cheer_up:
   - text: "Here is something to cheer you up:"
     image: "https://i.imgur.com/nGF1K8f.jpg"

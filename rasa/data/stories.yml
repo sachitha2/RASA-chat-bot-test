@@ -8,7 +8,7 @@ stories:
   - action: utter_greet
   - intent: mood_great
   - action: utter_happy
-- story: neck_pain
+- story: neck pain
   steps:
   - intent: greet
   - action: utter_greet
@@ -17,6 +17,14 @@ stories:
   - intent: neck_pain
   - action: utter_neck_pain
 
+- story: spinal pain
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_have_a_pain
+  - intent: spinal_pain
+  - action: utter_spinal_pain
 # - story: sad path 1
 #   steps:
 #   - intent: greet
