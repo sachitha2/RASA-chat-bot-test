@@ -14,6 +14,9 @@ responses:
   utter_greet:
   - text: "Hey! How are you?"
 
+  utter_have_a_pain:
+  - text: "Do you have any pain"
+
   utter_neck_pain:
   - text: "Let me sugest you a better sleeping position."
     image: "https://www.ramoscenter.com/wp-content/uploads/2021/09/sleep-methods-desktop.jpg"
